@@ -1,0 +1,19 @@
+.sidebar {
+    width: 35vw;
+    height: 100vh;
+    background: url("/tobias-rademacher-CeF_z3pEzLg-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    position: relative;
+    top: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgrey;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
