@@ -7,7 +7,17 @@ body {
     display: flex;
     font-family: 'Bitter';
     font-weight: 500;
-    background-color: #eeeeee;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+span.left-text {
+    font-family: 'Alfa Slab One';
+    font-weight: 200;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 3rem;
 }
 
 h1 {
@@ -15,7 +25,7 @@ h1 {
     font-weight: 200;
     font-weight: 500;
     text-transform: uppercase;
-    color: #fff;
+    color: #34a300;
     font-size: 3rem;
 }
 
@@ -42,7 +52,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #111;
+    background-color: #34a300;
     opacity: 0.5;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -53,8 +63,38 @@ h1 {
 }
 
 .main-form {
-    background-color: #fff;
+    background-color: #eee8ea;
     padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+form > div {
+    padding-bottom: 25px;
+}
+
+form > button {
+    grid-column-start: span 2;
+    margin: 0 auto;
+    padding: 10px 20px 10px 20px;
+    border-style: none;
+    background-color: #34a300;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+a {
+    color: #34a300;
+}
+
+input {
+    margin-top: 10px;
+    padding: 5px;
 }
 
 .main-forgot {

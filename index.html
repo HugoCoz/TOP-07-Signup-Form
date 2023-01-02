@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,53 +8,54 @@
     <link rel="stylesheet" href="styles.css">
     <title>Sign-up Form | ODIN</title>
 </head>
+
 <body>
     <div class="sidebar">
         <div class="logo">
             <img src="logo.png" alt="logo save the planet" style="max-height: 100px;">
-            <h1 class="left-text">Time for change !</h1>
+            <span class="left-text">Time for change !</span>
         </div>
     </div>
 
     <div class="main-content">
         <div class="main-text">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>
-            Sign up now to get started.</p>
+            <h1>This is not a real online service!</h1>
+            <p>You know you need something like this in your life to help you realize
+                your deepest dreams.<br>
+                Sign up now to get started.</p>
             <br>
             <p>You <span>know</span> you want to.</p>
         </div>
 
         <div class="main-form">
             <form action="">
-                <label for="firstname">
-                    <input type="text" name="firstname" id="firstname">
-                </label>
-                <label for="lastname">
-                    <input type="text" name="lastname" id="lastname">
-                </label>
-                <label for="phone">
-                    <input type="number" name="phone" id="phone">
-                </label>
-                <label for="email">
-                    <input type="email" name="email" id="email">
-                </label>
-                <label for="password">
-                    <input type="password" name="password" id="password">
-                    <input type="password" name="password" id="password">
-                </label>
+                <div><label for="firstname">Prénom</label><br><input type="text" name="firstname" id="firstname"
+                        placeholder="Prénom"></div>
+                        <div><label for="lastname">Nom</label><br><input type="text" name="lastname" id="lastname"
+                        placeholder="Nom"></div>
+                        <div><label for="phone">Téléphone</label><br><input type="number" name="phone" id="phone"
+                        placeholder="Numéro de téléphone"></div>
+                        <div><label for="email">Email</label><br><input type="email" name="email" id="email"
+                        placeholder="E-mail"></div>
+                        <div><label for="password">Mot de passe</label><br><input type="password" name="password" id="password"
+                        placeholder="Mot de passe"></div>
+                        <div><label for="confirm-password">Confirmer le mot de passe</label><br><input type="password"
+                        name="confirm-password" id="confirm-password" placeholder="Mot de passe"></div>
+                <button type="submit">Create account</button>
             </form>
 
         </div>
-            <p>Already have an account? <a href="">Log In</a></p>
+        <p>Already have an account? <a href="">Log In</a></p>
         <div class="main-forgot">
 
         </div>
 
     </div>
 
-     <main>
+    <main>
 
     </main>
 
 </body>
+
 </html>
